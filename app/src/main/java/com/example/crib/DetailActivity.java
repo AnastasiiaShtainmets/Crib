@@ -19,30 +19,30 @@ public class DetailActivity extends AppCompatActivity {
         int position = getIntent().getExtras().getInt("title");
 
         if (position == 0) {
-            webView.loadUrl("");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Imagine_Dragons");
          }
         if (position == 1) {
-            webView.loadUrl("");
+            webView.loadUrl("https://www.last.fm/ru/music/Imagine+Dragons/+albums");
 
         }
         if (position == 2) {
-            webView.loadUrl("");
+            webView.loadUrl("https://smotretklipy.ru/imagine-dragons");
 
         }
         if (position == 3) {
-            webView.loadUrl("");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Дэн_Платцман");
 
         }
         if (position == 4) {
-            webView.loadUrl("");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Дэн_Рейнольдс");
 
         }
         if (position == 5) {
-            webView.loadUrl("");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Бен_Макки?so=search");
 
         }
         if (position == 6) {
-            webView.loadUrl("");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Уэйн_Сермон?so=search");
 
         }
     }

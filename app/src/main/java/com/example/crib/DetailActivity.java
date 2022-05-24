@@ -22,26 +22,22 @@ public class DetailActivity extends AppCompatActivity {
             webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Imagine_Dragons");
          }
         if (position == 1) {
-            webView.loadUrl("https://www.last.fm/ru/music/Imagine+Dragons/+albums");
+            webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Дискография#.D0.90.D0.BB.D1.8C.D0.B1.D0.BE.D0.BC.D1.8B");
 
         }
         if (position == 2) {
-            webView.loadUrl("https://smotretklipy.ru/imagine-dragons");
-
-        }
-        if (position == 3) {
             webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Дэн_Платцман");
 
         }
-        if (position == 4) {
+        if (position == 3) {
             webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Дэн_Рейнольдс");
 
         }
-        if (position == 5) {
+        if (position == 4) {
             webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Бен_Макки?so=search");
 
         }
-        if (position == 6) {
+        if (position == 5) {
             webView.loadUrl("https://imagine-dragons.fandom.com/ru/wiki/Уэйн_Сермон?so=search");
 
         }
